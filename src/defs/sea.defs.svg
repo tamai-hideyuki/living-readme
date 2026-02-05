@@ -1,0 +1,23 @@
+  <defs>
+    <linearGradient id="sea-sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#cfefff" />
+      <stop offset="60%" stop-color="#a5d8f2" />
+      <stop offset="100%" stop-color="#7ab1d8" />
+    </linearGradient>
+
+    <linearGradient id="sea-water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6fb9d6" />
+      <stop offset="55%" stop-color="#3e87b3" />
+      <stop offset="100%" stop-color="#2a5f8a" />
+    </linearGradient>
+
+    <radialGradient id="sea-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#e7f6ff" stop-opacity="0.7" />
+      <stop offset="70%" stop-color="#c9e9ff" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#c9e9ff" stop-opacity="0" />
+    </radialGradient>
+
+    <filter id="sea-soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="8" />
+    </filter>
+  </defs>

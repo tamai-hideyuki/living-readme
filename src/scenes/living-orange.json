@@ -1,0 +1,9 @@
+{
+  "name": "living-orange",
+  "aria": "Calm ambient motion - warm orange glow",
+  "defs": "living-orange.defs.svg",
+  "body": "living-orange.body.svg",
+  "width": 800,
+  "height": 300,
+  "viewBox": "0 0 800 300"
+}

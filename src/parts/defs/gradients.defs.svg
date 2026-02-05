@@ -1,0 +1,66 @@
+  <!-- Background gradient: deep blue night -->
+  <linearGradient id="bg-deep-blue" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#0f172a" />
+    <stop offset="50%" stop-color="#111827" />
+    <stop offset="100%" stop-color="#0b1220" />
+  </linearGradient>
+
+  <!-- Background gradient: dusk purple -->
+  <linearGradient id="bg-dusk" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#1b1a2a" />
+    <stop offset="50%" stop-color="#121826" />
+    <stop offset="100%" stop-color="#0c1320" />
+  </linearGradient>
+
+  <!-- Background gradient: warm amber -->
+  <linearGradient id="bg-amber" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#2a1c12" />
+    <stop offset="50%" stop-color="#1f140d" />
+    <stop offset="100%" stop-color="#1a120c" />
+  </linearGradient>
+
+  <!-- Background gradient: soft mint -->
+  <linearGradient id="bg-mint" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#0f1f1a" />
+    <stop offset="50%" stop-color="#0b1813" />
+    <stop offset="100%" stop-color="#0a1511" />
+  </linearGradient>
+
+  <!-- Glow gradient: cool blue orb -->
+  <radialGradient id="glow-blue" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#9ecbff" stop-opacity="0.6" />
+    <stop offset="100%" stop-color="#9ecbff" stop-opacity="0" />
+  </radialGradient>
+
+  <!-- Glow gradient: aqua orb -->
+  <radialGradient id="glow-aqua" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#a3f7e0" stop-opacity="0.5" />
+    <stop offset="100%" stop-color="#a3f7e0" stop-opacity="0" />
+  </radialGradient>
+
+  <!-- Glow gradient: lilac orb -->
+  <radialGradient id="glow-lilac" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#cdb4ff" stop-opacity="0.4" />
+    <stop offset="100%" stop-color="#cdb4ff" stop-opacity="0" />
+  </radialGradient>
+
+  <!-- Glow gradient: warm amber orb -->
+  <radialGradient id="glow-amber" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#ffd3a4" stop-opacity="0.8" />
+    <stop offset="45%" stop-color="#ffb26b" stop-opacity="0.45" />
+    <stop offset="100%" stop-color="#ff9b4a" stop-opacity="0" />
+  </radialGradient>
+
+  <!-- Mist gradient: cool flow lines -->
+  <linearGradient id="mist-cool" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#f6d6ff" stop-opacity="0.15" />
+    <stop offset="50%" stop-color="#bde6ff" stop-opacity="0.2" />
+    <stop offset="100%" stop-color="#c0f7e4" stop-opacity="0.12" />
+  </linearGradient>
+
+  <!-- Mist gradient: mint flow lines -->
+  <linearGradient id="mist-mint" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#d9ffe8" stop-opacity="0.5" />
+    <stop offset="50%" stop-color="#b8f7d7" stop-opacity="0.35" />
+    <stop offset="100%" stop-color="#9feec9" stop-opacity="0.25" />
+  </linearGradient>

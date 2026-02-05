@@ -1,0 +1,9 @@
+{
+  "name": "pomodoro",
+  "aria": "Calm ambient motion - pomodoro analog timer",
+  "defs": "pomodoro.defs.svg",
+  "body": "pomodoro.body.svg",
+  "width": 800,
+  "height": 300,
+  "viewBox": "0 0 800 300"
+}

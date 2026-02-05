@@ -1,0 +1,8 @@
+  <!-- Background: deep blue night -->
+  <rect width="800" height="300" fill="url(#bg-deep-blue)" />
+  <!-- Background: dusk purple -->
+  <rect width="800" height="300" fill="url(#bg-dusk)" />
+  <!-- Background: warm amber -->
+  <rect width="800" height="300" fill="url(#bg-amber)" />
+  <!-- Background: soft mint -->
+  <rect width="800" height="300" fill="url(#bg-mint)" />

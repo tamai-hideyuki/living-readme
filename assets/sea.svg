@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" width="800" height="300" role="img" aria-label="Calm ambient motion - sea">
+  <defs>
+    <linearGradient id="sea-sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#cfefff" />
+      <stop offset="60%" stop-color="#a5d8f2" />
+      <stop offset="100%" stop-color="#7ab1d8" />
+    </linearGradient>
+
+    <linearGradient id="sea-water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6fb9d6" />
+      <stop offset="55%" stop-color="#3e87b3" />
+      <stop offset="100%" stop-color="#2a5f8a" />
+    </linearGradient>
+
+    <radialGradient id="sea-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#e7f6ff" stop-opacity="0.7" />
+      <stop offset="70%" stop-color="#c9e9ff" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#c9e9ff" stop-opacity="0" />
+    </radialGradient>
+
+    <filter id="sea-soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="8" />
+    </filter>
+  </defs>
+  <rect width="800" height="300" fill="url(#sea-sky)" />
+  <rect y="135" width="800" height="165" fill="url(#sea-water)" />
+
+  <g opacity="0.25" filter="url(#sea-soft)">
+    <circle cx="620" cy="80" r="90" fill="url(#sea-glow)">
+      <animate attributeName="cx" values="610;645;610" dur="30s" repeatCount="indefinite" />
+      <animate attributeName="cy" values="80;100;80" dur="26s" repeatCount="indefinite" />
+      <animate attributeName="r" values="86;100;86" dur="28s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.2;0.35;0.2" dur="20s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <g opacity="0.25" filter="url(#sea-soft)">
+    <path d="M0 170 C 120 155, 260 185, 400 170 C 540 155, 680 185, 800 170" stroke="#e8f6ff" stroke-width="2" fill="none">
+      <animate attributeName="d" dur="22s" repeatCount="indefinite"
+        values="
+          M0 170 C 120 155, 260 185, 400 170 C 540 155, 680 185, 800 170;
+          M0 176 C 120 188, 260 160, 400 176 C 540 192, 680 162, 800 178;
+          M0 170 C 120 155, 260 185, 400 170 C 540 155, 680 185, 800 170
+        " />
+    </path>
+  </g>
+
+  <g opacity="0.2" filter="url(#sea-soft)">
+    <path d="M0 210 C 140 195, 260 225, 400 212 C 540 198, 660 225, 800 212" stroke="#d0ebff" stroke-width="2" fill="none">
+      <animate attributeName="d" dur="26s" repeatCount="indefinite"
+        values="
+          M0 210 C 140 195, 260 225, 400 212 C 540 198, 660 225, 800 212;
+          M0 216 C 140 228, 260 200, 400 218 C 540 232, 660 202, 800 218;
+          M0 210 C 140 195, 260 225, 400 212 C 540 198, 660 225, 800 212
+        " />
+    </path>
+  </g>
+
+  <g opacity="0.18">
+    <path d="M0 245 C 140 230, 260 255, 400 242 C 540 228, 660 255, 800 242" stroke="#c0e3ff" stroke-width="2" fill="none">
+      <animate attributeName="d" dur="30s" repeatCount="indefinite"
+        values="
+          M0 245 C 140 230, 260 255, 400 242 C 540 228, 660 255, 800 242;
+          M0 250 C 140 262, 260 235, 400 248 C 540 265, 660 235, 800 248;
+          M0 245 C 140 230, 260 255, 400 242 C 540 228, 660 255, 800 242
+        " />
+    </path>
+  </g>
+
+  <g opacity="0.12">
+    <path d="M0 120 C 180 108, 320 132, 520 120 C 640 112, 720 120, 800 118" stroke="#f3fbff" stroke-width="2" fill="none">
+      <animate attributeName="d" dur="34s" repeatCount="indefinite"
+        values="
+          M0 120 C 180 108, 320 132, 520 120 C 640 112, 720 120, 800 118;
+          M0 126 C 180 138, 320 114, 520 126 C 640 140, 720 115, 800 125;
+          M0 120 C 180 108, 320 132, 520 120 C 640 112, 720 120, 800 118
+        " />
+    </path>
+  </g>
+
+  <g opacity="0.2">
+    <path d="M0 190 C 160 175, 300 205, 460 190 C 620 175, 700 205, 800 190" stroke="#eef9ff" stroke-width="1.5" fill="none">
+      <animate attributeName="d" dur="20s" repeatCount="indefinite"
+        values="
+          M0 190 C 160 175, 300 205, 460 190 C 620 175, 700 205, 800 190;
+          M0 196 C 160 210, 300 180, 460 196 C 620 214, 700 182, 800 196;
+          M0 190 C 160 175, 300 205, 460 190 C 620 175, 700 205, 800 190
+        " />
+    </path>
+  </g>
+
+  <g opacity="0.08">
+    <circle cx="120" cy="200" r="2" fill="#e7f6ff">
+      <animate attributeName="cy" values="200;190;200" dur="14s" repeatCount="indefinite" />
+      <animate attributeName="cx" values="120;140;120" dur="22s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.05;0.15;0.05" dur="10s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="680" cy="230" r="2" fill="#d6efff">
+      <animate attributeName="cy" values="230;220;230" dur="16s" repeatCount="indefinite" />
+      <animate attributeName="cx" values="680;650;680" dur="24s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.04;0.12;0.04" dur="12s" repeatCount="indefinite" />
+    </circle>
+  </g>
+</svg>
+

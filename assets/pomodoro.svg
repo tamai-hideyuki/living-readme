@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" width="800" height="300" role="img" aria-label="Calm ambient motion - pomodoro analog timer">
+  <defs>
+    <linearGradient id="pomo-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0e1420" />
+      <stop offset="50%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#0b1220" />
+    </linearGradient>
+
+    <filter id="pomo-soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6" />
+    </filter>
+  </defs>
+  <rect width="800" height="300" fill="url(#pomo-bg)" />
+
+  <g transform="translate(400 150)">
+    <!-- outer ring -->
+    <circle r="92" fill="none" stroke="#1f2937" stroke-width="10" />
+
+    <!-- work/break arc ring -->
+    <g transform="rotate(-90)">
+      <circle r="92" fill="none" stroke="#6aa9ff" stroke-width="10" pathLength="1"
+        stroke-dasharray="0.8333 0.1667" />
+      <circle r="92" fill="none" stroke="#7fe3b5" stroke-width="10" pathLength="1"
+        stroke-dasharray="0.1667 0.8333" stroke-dashoffset="-0.8333" />
+    </g>
+
+    <!-- ticks -->
+    <g stroke="#2b3443" stroke-width="2">
+      <g transform="rotate(0)"><line x1="0" y1="-82" x2="0" y2="-92" /></g>
+      <g transform="rotate(30)"><line x1="0" y1="-84" x2="0" y2="-92" /></g>
+      <g transform="rotate(60)"><line x1="0" y1="-84" x2="0" y2="-92" /></g>
+      <g transform="rotate(90)"><line x1="0" y1="-82" x2="0" y2="-92" /></g>
+      <g transform="rotate(120)"><line x1="0" y1="-84" x2="0" y2="-92" /></g>
+      <g transform="rotate(150)"><line x1="0" y1="-84" x2="0" y2="-92" /></g>
+      <g transform="rotate(180)"><line x1="0" y1="-82" x2="0" y2="-92" /></g>
+      <g transform="rotate(210)"><line x1="0" y1="-84" x2="0" y2="-92" /></g>
+      <g transform="rotate(240)"><line x1="0" y1="-84" x2="0" y2="-92" /></g>
+      <g transform="rotate(270)"><line x1="0" y1="-82" x2="0" y2="-92" /></g>
+      <g transform="rotate(300)"><line x1="0" y1="-84" x2="0" y2="-92" /></g>
+      <g transform="rotate(330)"><line x1="0" y1="-84" x2="0" y2="-92" /></g>
+    </g>
+
+    <!-- dial face -->
+    <circle r="70" fill="#0f172a" stroke="#1f2937" stroke-width="2" />
+
+    <!-- minute hand (pomodoro cycle) -->
+    <g>
+      <line x1="0" y1="8" x2="0" y2="-62" stroke="#6aa9ff" stroke-width="4" stroke-linecap="round" />
+      <animateTransform attributeName="transform" type="rotate" dur="1800s" repeatCount="indefinite"
+        values="0;360;360;720" keyTimes="0;0.8333;0.8333;1" calcMode="linear" />
+      <animate attributeName="stroke" dur="1800s" repeatCount="indefinite"
+        values="#6aa9ff;#6aa9ff;#7fe3b5;#7fe3b5" keyTimes="0;0.8333;0.8333;1" calcMode="discrete" />
+    </g>
+
+    <!-- second hand -->
+    <g>
+      <line x1="0" y1="12" x2="0" y2="-68" stroke="#e0f2ff" stroke-width="2" stroke-linecap="round" />
+      <animateTransform attributeName="transform" type="rotate" values="0;360" dur="60s" repeatCount="indefinite" />
+    </g>
+
+    <circle r="4" fill="#e0f2ff" />
+
+    <g font-family="'Courier New', Courier, monospace" font-size="12" fill="#9fb7d6" text-anchor="middle">
+      <text x="0" y="54">25 / 5</text>
+    </g>
+  </g>
+
+  <g opacity="0.15" filter="url(#pomo-soft)">
+    <circle cx="160" cy="70" r="50" fill="#6aa9ff" />
+    <circle cx="640" cy="230" r="60" fill="#7fe3b5" />
+  </g>
+
+  <g opacity="0.18" filter="url(#pomo-soft)">
+    <circle cx="120" cy="220" r="32" fill="#8fd3ff">
+      <animate attributeName="cx" values="120;160;120" dur="26s" repeatCount="indefinite" />
+      <animate attributeName="cy" values="220;200;220" dur="22s" repeatCount="indefinite" />
+      <animate attributeName="r" values="28;36;28" dur="24s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.12;0.24;0.12" dur="20s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="690" cy="90" r="40" fill="#ffd28b">
+      <animate attributeName="cx" values="690;650;690" dur="28s" repeatCount="indefinite" />
+      <animate attributeName="cy" values="90;110;90" dur="26s" repeatCount="indefinite" />
+      <animate attributeName="r" values="36;44;36" dur="30s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.1;0.22;0.1" dur="24s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="520" cy="60" r="22" fill="#c7b7ff">
+      <animate attributeName="cx" values="520;560;520" dur="24s" repeatCount="indefinite" />
+      <animate attributeName="cy" values="60;78;60" dur="21s" repeatCount="indefinite" />
+      <animate attributeName="r" values="18;26;18" dur="20s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.08;0.2;0.08" dur="18s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="260" cy="40" r="18" fill="#8ee3c9">
+      <animate attributeName="cx" values="260;230;260" dur="20s" repeatCount="indefinite" />
+      <animate attributeName="cy" values="40;62;40" dur="23s" repeatCount="indefinite" />
+      <animate attributeName="r" values="16;22;16" dur="19s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.08;0.18;0.08" dur="17s" repeatCount="indefinite" />
+    </circle>
+  </g>
+</svg>
+

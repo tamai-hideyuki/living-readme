@@ -1,0 +1,9 @@
+{
+  "name": "living-green",
+  "aria": "Calm ambient motion - soft green geometry",
+  "defs": "living-green.defs.svg",
+  "body": "living-green.body.svg",
+  "width": 800,
+  "height": 300,
+  "viewBox": "0 0 800 300"
+}

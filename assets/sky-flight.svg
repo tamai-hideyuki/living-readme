@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" width="800" height="300" role="img" aria-label="Calm ambient motion - sky flight">
+  <defs>
+    <linearGradient id="sky-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffb38a" />
+      <stop offset="55%" stop-color="#f08bb2" />
+      <stop offset="100%" stop-color="#6f6cb8" />
+    </linearGradient>
+
+    <linearGradient id="sky-upper" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5b6fc8" stop-opacity="0.35" />
+      <stop offset="55%" stop-color="#8fa3f2" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#c9b2ff" stop-opacity="0" />
+    </linearGradient>
+
+    <linearGradient id="horizon-band" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffd08a" stop-opacity="0.45" />
+      <stop offset="50%" stop-color="#ffb36b" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#ff9b6b" stop-opacity="0.4" />
+    </linearGradient>
+
+    <radialGradient id="sun-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffe2b0" stop-opacity="0.95" />
+      <stop offset="60%" stop-color="#ffb36b" stop-opacity="0.45" />
+      <stop offset="100%" stop-color="#ff9b4a" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="sun-ring" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffdba1" stop-opacity="0" />
+      <stop offset="70%" stop-color="#ffdba1" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#ffdba1" stop-opacity="0" />
+    </radialGradient>
+
+    <filter id="cloud-soft" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="8" />
+    </filter>
+
+    <filter id="mist-soft" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="14" />
+    </filter>
+  </defs>
+  <rect width="800" height="300" fill="url(#sky-bg)" />
+  <rect width="800" height="300" fill="url(#sky-upper)" />
+
+  <g opacity="0.4" filter="url(#cloud-soft)">
+    <g>
+      <circle cx="60" cy="50" r="34" fill="#ffe5d1" />
+      <circle cx="95" cy="42" r="30" fill="#ffe5d1" />
+      <circle cx="130" cy="56" r="38" fill="#ffe5d1" />
+      <animateTransform attributeName="transform" type="translate" values="-240 0; 900 0" dur="56s" repeatCount="indefinite" />
+    </g>
+  </g>
+
+  <g opacity="0.5" filter="url(#cloud-soft)">
+    <g>
+      <circle cx="300" cy="120" r="30" fill="#ffd8c2" />
+      <circle cx="330" cy="110" r="26" fill="#ffd8c2" />
+      <circle cx="360" cy="125" r="34" fill="#ffd8c2" />
+      <animateTransform attributeName="transform" type="translate" values="-260 0; 860 0" dur="36s" repeatCount="indefinite" />
+    </g>
+  </g>
+
+  <g opacity="0.45" filter="url(#cloud-soft)">
+    <g>
+      <circle cx="520" cy="60" r="28" fill="#ffe2cc" />
+      <circle cx="550" cy="52" r="24" fill="#ffe2cc" />
+      <circle cx="580" cy="65" r="32" fill="#ffe2cc" />
+      <animateTransform attributeName="transform" type="translate" values="-300 0; 820 0" dur="42s" repeatCount="indefinite" />
+    </g>
+  </g>
+
+  <g opacity="0.28" filter="url(#cloud-soft)">
+    <g>
+      <circle cx="140" cy="210" r="46" fill="#f8d4c6" />
+      <circle cx="180" cy="200" r="38" fill="#f8d4c6" />
+      <circle cx="220" cy="215" r="52" fill="#f8d4c6" />
+      <animateTransform attributeName="transform" type="translate" values="-280 0; 840 0" dur="62s" repeatCount="indefinite" />
+    </g>
+  </g>
+
+  <g opacity="0.28">
+    <circle cx="640" cy="105" r="92" fill="url(#sun-glow)">
+      <animate attributeName="cx" values="620;650;620" dur="22s" repeatCount="indefinite" />
+      <animate attributeName="cy" values="105;145;105" dur="38s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.22;0.36;0.22" dur="20s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="640" cy="105" r="120" fill="url(#sun-ring)" opacity="0.5">
+      <animate attributeName="cy" values="105;145;105" dur="38s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.15;0.35;0.15" dur="26s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <g opacity="0.16" filter="url(#mist-soft)">
+    <path d="M480 175 C 540 135, 710 135, 770 175 L 770 265 L 480 265 Z" fill="#ffb36b">
+      <animate attributeName="opacity" values="0.1;0.2;0.1" dur="30s" repeatCount="indefinite" />
+    </path>
+  </g>
+
+  <g opacity="0.2">
+    <rect x="0" y="205" width="800" height="35" fill="url(#horizon-band)">
+      <animate attributeName="opacity" values="0.14;0.22;0.14" dur="24s" repeatCount="indefinite" />
+    </rect>
+  </g>
+
+  <g opacity="0.18">
+    <path d="M0 240 C 140 220, 260 250, 400 235 C 540 220, 660 250, 800 235" stroke="#ffffff" stroke-width="2" fill="none">
+      <animate attributeName="d" dur="28s" repeatCount="indefinite"
+        values="
+          M0 240 C 140 220, 260 250, 400 235 C 540 220, 660 250, 800 235;
+          M0 245 C 140 260, 260 225, 400 245 C 540 270, 660 225, 800 245;
+          M0 240 C 140 220, 260 250, 400 235 C 540 220, 660 250, 800 235
+        " />
+    </path>
+  </g>
+
+  <g opacity="0.35" fill="none" stroke="#3a2a2a" stroke-width="2" stroke-linecap="round">
+    <g>
+      <path d="M20 0 Q 35 -12 50 0" />
+      <path d="M50 0 Q 65 -12 80 0" />
+      <animateTransform attributeName="transform" type="translate" values="-120 90; 920 70" dur="22s" repeatCount="indefinite" />
+    </g>
+    <g opacity="0.6">
+      <path d="M20 0 Q 32 -8 44 0" />
+      <path d="M44 0 Q 56 -8 68 0" />
+      <animateTransform attributeName="transform" type="translate" values="-180 150; 900 135" dur="28s" repeatCount="indefinite" />
+    </g>
+    <g opacity="0.5">
+      <path d="M20 0 Q 34 -10 48 0" />
+      <path d="M48 0 Q 62 -10 76 0" />
+      <animateTransform attributeName="transform" type="translate" values="-240 210; 880 195" dur="32s" repeatCount="indefinite" />
+    </g>
+  </g>
+
+  <g opacity="0.25" fill="none" stroke="#2d2222" stroke-width="1.6" stroke-linecap="round">
+    <g>
+      <path d="M12 0 Q 22 -7 32 0" />
+      <path d="M32 0 Q 42 -7 52 0" />
+      <animateTransform attributeName="transform" type="translate" values="-160 55; 900 45" dur="36s" repeatCount="indefinite" />
+    </g>
+    <g opacity="0.7">
+      <path d="M12 0 Q 20 -6 28 0" />
+      <path d="M28 0 Q 36 -6 44 0" />
+      <animateTransform attributeName="transform" type="translate" values="-200 170; 920 160" dur="40s" repeatCount="indefinite" />
+    </g>
+  </g>
+
+  <g opacity="0.12">
+    <rect x="0" y="0" width="800" height="90" fill="#7a7fd6" opacity="0.25">
+      <animate attributeName="opacity" values="0.08;0.16;0.08" dur="28s" repeatCount="indefinite" />
+    </rect>
+  </g>
+
+  <g opacity="0.35">
+    <rect x="0" y="0" width="800" height="300" fill="#ff7b6b" opacity="0.18" />
+  </g>
+</svg>
+

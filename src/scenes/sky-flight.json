@@ -1,0 +1,9 @@
+{
+  "name": "sky-flight",
+  "aria": "Calm ambient motion - sky flight",
+  "defs": "sky-flight.defs.svg",
+  "body": "sky-flight.body.svg",
+  "width": 800,
+  "height": 300,
+  "viewBox": "0 0 800 300"
+}

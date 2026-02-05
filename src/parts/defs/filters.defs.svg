@@ -1,0 +1,14 @@
+  <!-- Blur filter: soft glow -->
+  <filter id="blur-soft" x="-30%" y="-30%" width="160%" height="160%">
+    <feGaussianBlur stdDeviation="18" />
+  </filter>
+
+  <!-- Blur filter: medium softness -->
+  <filter id="blur-mid" x="-25%" y="-25%" width="150%" height="150%">
+    <feGaussianBlur stdDeviation="12" />
+  </filter>
+
+  <!-- Blur filter: strong glow -->
+  <filter id="blur-strong" x="-30%" y="-30%" width="160%" height="160%">
+    <feGaussianBlur stdDeviation="20" />
+  </filter>

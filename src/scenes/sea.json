@@ -1,0 +1,9 @@
+{
+  "name": "sea",
+  "aria": "Calm ambient motion - sea",
+  "defs": "sea.defs.svg",
+  "body": "sea.body.svg",
+  "width": 800,
+  "height": 300,
+  "viewBox": "0 0 800 300"
+}

@@ -1,0 +1,32 @@
+  <rect width="800" height="300" fill="url(#bg3)" />
+
+  <g filter="url(#soft2)">
+    <circle cx="220" cy="150" r="150" fill="url(#orangeGlow)" opacity="0.9">
+      <animate attributeName="cx" values="220;620;420;180;220" dur="32s" repeatCount="indefinite" />
+      <animate attributeName="cy" values="150;90;210;120;150" dur="28s" repeatCount="indefinite" />
+      <animate attributeName="r" values="140;165;150;170;140" dur="24s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.85;0.6;0.8;0.55;0.85" dur="20s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <g opacity="0.12">
+    <path d="M0 210 C 140 185, 260 230, 400 205 C 540 180, 660 230, 800 210" stroke="#ffb26b" stroke-width="2" fill="none">
+      <animate attributeName="d" dur="26s" repeatCount="indefinite"
+        values="
+          M0 210 C 140 185, 260 230, 400 205 C 540 180, 660 230, 800 210;
+          M0 220 C 140 240, 260 190, 400 220 C 540 250, 660 195, 800 225;
+          M0 210 C 140 185, 260 230, 400 205 C 540 180, 660 230, 800 210
+        " />
+    </path>
+  </g>
+
+  <g opacity="0.08">
+    <circle cx="120" cy="70" r="2" fill="#ffd9b0">
+      <animate attributeName="cy" values="70;95;70" dur="14s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.05;0.2;0.05" dur="10s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="680" cy="240" r="2" fill="#ffc38a">
+      <animate attributeName="cy" values="240;215;240" dur="16s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.05;0.18;0.05" dur="12s" repeatCount="indefinite" />
+    </circle>
+  </g>

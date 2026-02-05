@@ -1,0 +1,42 @@
+  <!-- Particles: drifting trio (cool tones) -->
+  <g opacity="0.12">
+    <circle cx="90" cy="70" r="2" fill="#cfe9ff">
+      <animate attributeName="cx" values="90;140;90" dur="18s" repeatCount="indefinite" />
+      <animate attributeName="cy" values="70;95;70" dur="14s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.05;0.2;0.05" dur="10s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="720" cy="210" r="2" fill="#dfffe9">
+      <animate attributeName="cx" values="720;680;720" dur="20s" repeatCount="indefinite" />
+      <animate attributeName="cy" values="210;185;210" dur="16s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.05;0.18;0.05" dur="12s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="360" cy="40" r="2" fill="#f2d6ff">
+      <animate attributeName="cx" values="360;330;360" dur="22s" repeatCount="indefinite" />
+      <animate attributeName="cy" values="40;65;40" dur="15s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.05;0.16;0.05" dur="11s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <!-- Particles: scattered five (mixed cool tones) -->
+  <g opacity="0.1">
+    <circle cx="130" cy="230" r="2" fill="#cfe9ff">
+      <animate attributeName="cy" values="230;200;230" dur="10s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.08;0.2;0.08" dur="8s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="680" cy="70" r="2" fill="#dfffe9">
+      <animate attributeName="cy" values="70;95;70" dur="12s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.06;0.18;0.06" dur="9s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="420" cy="260" r="2" fill="#f2d6ff">
+      <animate attributeName="cy" values="260;235;260" dur="11s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.05;0.16;0.05" dur="7s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="260" cy="90" r="2" fill="#d7f0ff">
+      <animate attributeName="cy" values="90;115;90" dur="13s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.05;0.2;0.05" dur="10s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="560" cy="240" r="2" fill="#f7e0ff">
+      <animate attributeName="cy" values="240;220;240" dur="14s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.05;0.18;0.05" dur="9s" repeatCount="indefinite" />
+    </circle>
+  </g>

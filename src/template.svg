@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="{{VIEWBOX}}" width="{{WIDTH}}" height="{{HEIGHT}}" role="img" aria-label="{{ARIA}}">
+{{DEFS}}
+{{BODY}}
+</svg>

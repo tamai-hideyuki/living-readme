@@ -1,0 +1,71 @@
+  <!-- Wave lines: cool blue -->
+  <g opacity="0.15">
+    <path d="M0 240 C 140 210, 260 270, 400 245 C 540 220, 660 260, 800 235" stroke="#9ecbff" stroke-width="2" fill="none">
+      <animate attributeName="d" dur="24s" repeatCount="indefinite"
+        values="
+          M0 240 C 140 210, 260 270, 400 245 C 540 220, 660 260, 800 235;
+          M0 230 C 140 260, 260 220, 400 250 C 540 280, 660 210, 800 240;
+          M0 240 C 140 210, 260 270, 400 245 C 540 220, 660 260, 800 235
+        " />
+    </path>
+  </g>
+
+  <!-- Wave lines: aqua -->
+  <g opacity="0.08">
+    <path d="M0 120 C 160 95, 300 145, 460 120 C 620 95, 700 135, 800 125" stroke="#a3f7e0" stroke-width="2" fill="none">
+      <animate attributeName="d" dur="30s" repeatCount="indefinite"
+        values="
+          M0 120 C 160 95, 300 145, 460 120 C 620 95, 700 135, 800 125;
+          M0 130 C 160 150, 300 110, 460 135 C 620 160, 700 100, 800 140;
+          M0 120 C 160 95, 300 145, 460 120 C 620 95, 700 135, 800 125
+        " />
+    </path>
+  </g>
+
+  <!-- Wave lines: mist cool gradient -->
+  <g opacity="0.22">
+    <path d="M0 210 C 120 195, 260 230, 400 215 C 540 200, 680 235, 800 220" stroke="url(#mist-cool)" stroke-width="3" fill="none">
+      <animate attributeName="d" dur="26s" repeatCount="indefinite"
+        values="
+          M0 210 C 120 195, 260 230, 400 215 C 540 200, 680 235, 800 220;
+          M0 220 C 120 235, 260 200, 400 225 C 540 245, 680 205, 800 230;
+          M0 210 C 120 195, 260 230, 400 215 C 540 200, 680 235, 800 220
+        " />
+    </path>
+  </g>
+
+  <!-- Wave lines: soft blue -->
+  <g opacity="0.14">
+    <path d="M0 150 C 140 135, 300 175, 460 155 C 620 135, 700 170, 800 160" stroke="#bde6ff" stroke-width="2" fill="none">
+      <animate attributeName="d" dur="30s" repeatCount="indefinite"
+        values="
+          M0 150 C 140 135, 300 175, 460 155 C 620 135, 700 170, 800 160;
+          M0 160 C 140 175, 300 140, 460 165 C 620 185, 700 145, 800 170;
+          M0 150 C 140 135, 300 175, 460 155 C 620 135, 700 170, 800 160
+        " />
+    </path>
+  </g>
+
+  <!-- Wave lines: warm amber -->
+  <g opacity="0.12">
+    <path d="M0 210 C 140 185, 260 230, 400 205 C 540 180, 660 230, 800 210" stroke="#ffb26b" stroke-width="2" fill="none">
+      <animate attributeName="d" dur="26s" repeatCount="indefinite"
+        values="
+          M0 210 C 140 185, 260 230, 400 205 C 540 180, 660 230, 800 210;
+          M0 220 C 140 240, 260 190, 400 220 C 540 250, 660 195, 800 225;
+          M0 210 C 140 185, 260 230, 400 205 C 540 180, 660 230, 800 210
+        " />
+    </path>
+  </g>
+
+  <!-- Wave lines: mint gradient -->
+  <g opacity="0.2">
+    <path d="M0 220 C 140 200, 260 245, 400 225 C 540 205, 660 245, 800 230" stroke="url(#mist-mint)" stroke-width="2" fill="none">
+      <animate attributeName="d" dur="28s" repeatCount="indefinite"
+        values="
+          M0 220 C 140 200, 260 245, 400 225 C 540 205, 660 245, 800 230;
+          M0 235 C 140 255, 260 210, 400 235 C 540 260, 660 210, 800 240;
+          M0 220 C 140 200, 260 245, 400 225 C 540 205, 660 245, 800 230
+        " />
+    </path>
+  </g>
